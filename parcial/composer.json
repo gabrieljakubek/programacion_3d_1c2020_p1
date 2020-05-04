@@ -1,0 +1,12 @@
+{
+    "name": "haku/parcial",
+    "authors": [
+        {
+            "name": "gabrieljakubek",
+            "email": "gabrieljakubek@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    }
+}
