@@ -86,7 +86,7 @@ class Producto
 
     public static function BuscarProductObj($productos, $tipo,$sabor)
     {
-        $retorno;
+        $retorno = null;
         foreach ($productos as $key => $value) {
             if ($tipo == $value->tipo && $sabor == $value->sabor) {
                 $retorno = $value;
